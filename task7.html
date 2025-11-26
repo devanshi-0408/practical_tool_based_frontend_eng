@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Text Example</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        button {
+            padding: 8px 16px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 id="title">Before Click</h2>
+
+    <button onclick="changeText()">Change Text</button>
+
+    <script>
+        function changeText() {
+            document.getElementById("title").innerHTML = "After Click";
+        }
+    </script>
+
+</body>
+</html>
